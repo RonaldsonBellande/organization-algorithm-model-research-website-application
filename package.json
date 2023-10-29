@@ -2,9 +2,9 @@
   "name": "organization-algorithm-model-research-website-application-electron",
   "appId": "com.organization-algorithm-model-research-website-application.ronaldsonbellande.${name}",
   "productName": "Organization-Algorithm-Model-Research-Website-Application",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Linux desktop web app for Organization-Algorithm-Model-Research-Website-Application",
-  "main": "scripts/main.js",
+  "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder --publish never"

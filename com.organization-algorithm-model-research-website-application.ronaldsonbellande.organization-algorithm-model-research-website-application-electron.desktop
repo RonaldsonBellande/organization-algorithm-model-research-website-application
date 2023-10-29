@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Organization-Algorithm-Model-Research-Website-Application
+Comment=entertainment services with organization-algorithm-model-research-website-application
+Comment[ro]=entertainment services with organization-algorithm-model-research-website-application
+Type=Application
+Exec=/opt/organization-algorithm-model-research-website-application-electron/organization-algorithm-model-research-website-application-electron
+Icon=organization-algorithm-model-research-website-application
+StartupWMClass=organization-algorithm-model-research-website-application
+Categories=Network;Entertainment
+Keywords=Entertainment;Streaming;Organization-Algorithm-Model-Research-Website-Application;organization-algorithm-model-research-website-application;YT
+Keywords[ro]=Entertainment;Streaming

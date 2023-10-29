@@ -1,0 +1,38 @@
+{
+  "name": "organization-algorithm-model-research-website-application-electron",
+  "appId": "com.organization-algorithm-model-research-website-application.ronaldsonbellande.${name}",
+  "productName": "Organization-Algorithm-Model-Research-Website-Application",
+  "version": "2.0.0",
+  "description": "A Linux desktop web app for Organization-Algorithm-Model-Research-Website-Application",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish never"
+  },
+  "build": {
+    "asar": false,
+    "linux": {
+      "target": [
+        "zip",
+        "AppImage"
+      ],
+      "category": "Entertainment",
+      "artifactName": "${name}_${version}_linux.${ext}"
+    },
+    "extraFiles": [
+      "com.organization-algorithm-model-research-website-application.ronaldsonbellande.${name}.desktop"
+    ]
+  },
+  "repository": "https://organization-algorithm-model-research-website-application.com/ronaldsonbellande/organization-algorithm-model-research-website-application-electron",
+  "keywords": [
+    "Electron",
+    "organization-algorithm-model-research-website-application",
+    "Organization-Algorithm-Model-Research-Website-Application"
+  ],
+  "author": "Ronaldson Bellande <ronaldsonbellande@gmail.com>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}
